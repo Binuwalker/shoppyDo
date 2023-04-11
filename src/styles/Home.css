@@ -1,0 +1,107 @@
+.home {
+    height: 500px;
+    width: 100%;
+}
+
+.products {
+    height: 450px;
+    width: 100%;
+}
+
+.product {
+    height: 450px;
+    width: 23.7%;
+    margin-top: 20px;
+    margin-left: 1%;
+    padding-top: 20px;
+    border: 1px solid rgb(137, 136, 136);
+    border-radius: 8px;
+    float: left;
+}
+
+.product-img-container {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.product-img {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0.5px rgb(39, 39, 39);
+}
+
+.product-name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 680;
+    text-align: center;
+}
+
+.product-price {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 680;
+    text-align: center;
+}
+
+.addToCart-btn {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(14, 242, 166);
+    border: 2px solid rgb(15, 212, 146);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.addToCart-btn:hover {
+    background-color: rgba(14, 242, 166, 0);
+    border: 2px solid rgb(15, 212, 146);
+    transition: 0.5s;
+}
+
+.buyNow-btn {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(20, 157, 172);
+    border: 2px solid rgb(13, 114, 125);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.buyNow-btn:hover {
+    background-color: rgba(20, 157, 172, 0);
+    border: 2px solid rgb(13, 114, 125);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 992px) {
+    .home {
+        height: 970px;
+    }
+    .product {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        height: 1900px;
+    }
+    .product {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home {
+        height: 1900px;
+    }
+    .product {
+        width: 100%;
+    }
+}

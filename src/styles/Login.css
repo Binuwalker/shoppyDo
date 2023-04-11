@@ -1,0 +1,296 @@
+.login {
+    background-color: rgb(47, 32, 52);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-form-container {
+    width: 100%;
+}
+
+.login-dummy {
+    height: 10px;
+    width: 30%;
+    float: left;
+}
+
+.login-form {
+    height: 400px;
+    width: 40%;
+    color: #ffffff;
+    background: linear-gradient(to right,
+            #3c1053,
+            #ad5389);
+    border: 1px solid rgb(231, 170, 235);
+    border-radius: 50% 50% 47% 53% / 85% 12% 88% 15%;
+    box-shadow: 0px 0px 15px 1px rgb(214, 136, 214);
+    float: left;
+}
+
+.login-heading {
+    margin-top: 10px;
+    color: rgb(244, 1, 127);
+    font-size: 30px;
+    font-weight: 680;
+    font-family: cursive;
+    text-align: center;
+}
+
+.login-emailLabel {
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: 680;
+    font-family: cursive;
+}
+
+.login-emailInput {
+    height: 38px;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 65px;
+    font-family: cursive;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login-emailError {
+    height: 25px;
+    width: 64%;
+    color: rgb(255, 0, 0);
+    margin-top: 5px;
+    margin-left: 15%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: cursive;
+    float: left;
+}
+
+.login-passwordLabel {
+    width: 85%;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 680;
+    font-family: cursive;
+}
+
+.login-passwordInput {
+    height: 35px;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: cursive;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login-passwordError {
+    height: 25px;
+    width: 64%;
+    color: rgb(255, 0, 0);
+    margin-top: 5px;
+    margin-left: 6%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: cursive;
+    float: left;
+}
+
+.login-btn {
+    height: 40px;
+    width: 80%;
+    margin-top: 10px;
+    color: #ffffff;
+    background: rgb(244, 1, 127);
+    font-size: 20px;
+    font-weight: 680;
+    font-family: cursive;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.login-btn:hover {
+    background: rgb(215, 13, 117);
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+/* login-statusIcons */
+
+.login-StatusIcons {
+    height: 25px;
+    width: 18%;
+    position: relative;
+    bottom: 30px;
+    float: left;
+}
+
+.login-StatusIcon-exclamation {
+    margin-top: 1.3px;
+    color: #f00;
+    font-size: 22px;
+    float: right;
+}
+
+.login-StatusIcon-check {
+    margin-top: 1.3px;
+    color: rgb(15, 156, 46);
+    font-size: 22px;
+    float: right;
+}
+
+/* media-screen */
+
+@media screen and (max-width:1400px) {
+
+    .login-dummy {
+        width: 25%;
+    }
+
+    .login-form {
+        width: 50%;
+    }
+
+    .login-emailError {
+        margin-left: 14%;
+    }
+
+    .login-passwordError {
+        margin-left: 5.8%;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .login-dummy {
+        width: 20%;
+    }
+
+    .login-form {
+        width: 60%;
+    }
+
+    .login-emailError {
+        margin-left: 14%;
+    }
+
+    .login-passwordError {
+        margin-left: 5.8%;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .login-dummy {
+        width: 10%;
+    }
+
+    .login-form {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .login-dummy {
+        width: 0%;
+    }
+
+    .login-form {
+        width: 100%;
+        color: #ffffff;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+
+    .login-dummy {
+        width: 0%;
+    }
+
+    .login-form {
+        width: 100%;
+    }
+
+    .login-emailLabel {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .login-dummy {
+        width: 0%;
+    }
+
+    .login-form {
+        height: 400px;
+        width: 100%;
+        border: 1px solid rgb(231, 170, 235);
+        border-radius: 20px;
+    }
+    
+    .login-emailLabel {
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .login-emailInput {
+        height: 45px;
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+    
+    .login-emailError {
+        width: 80%;
+        margin-left: 1%;
+        font-size: 16px;
+    }
+    
+    .login-passwordLabel {
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .login-passwordInput {
+        height: 45px;
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+    
+    .login-passwordError {
+        width: 80%;
+        margin-left: 1%;
+    }
+    
+    .login-btn {
+        height: 50px;
+        width: 100%;
+    }
+    
+    .login-btn:hover {
+        background: rgb(215, 13, 117);
+        font-size: 19px;
+        transition: 0.5s;
+    }
+
+    .login-StatusIcons {
+        position: relative;
+        bottom: 33px;
+    }
+
+}

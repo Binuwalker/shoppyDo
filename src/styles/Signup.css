@@ -1,0 +1,15 @@
+.signup-btn {
+    color: #ffffff;
+    background-color: rgb(56, 98, 166);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 2px 0.5px rgba(48, 47, 47, 0.482);
+}
+
+.signup-btn:hover {
+    background-color: rgb(37, 68, 118);
+}
+
+.signup-btn:active {
+    background-color: rgb(67, 90, 130);
+}

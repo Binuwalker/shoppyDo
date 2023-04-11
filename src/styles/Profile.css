@@ -1,0 +1,114 @@
+.profile {
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.user-profile-container {
+    height: 300px;
+    width: 100%;
+}
+
+.user-img-container {
+    height: 300px;
+    width: 30%;
+    padding-top: 25px;
+    padding-left: 50px;
+    float: left;
+}
+
+.user-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.user-details-container {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.userValue-key {
+    color: rgb(15, 212, 146);
+}
+
+.user-username {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 680;
+}
+
+.user-email {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 680;
+}
+
+.user-phonenumber {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 680;
+}
+
+.address-btn {
+    height: 45px;
+    width: 30%;
+    margin-top: 20px;
+    color: #000000;
+    background-color: #c9c7c7;
+    border: 2px solid rgb(15, 212, 146);
+    font-size: 19px;
+    font-weight: 680;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.logout-btn {
+    height: 45px;
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #000;
+    border: 2px solid rgb(15, 212, 146);
+    font-size: 19px;
+    font-weight: 680;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.address-btn:hover {
+    color: #000000;
+    background-color: #00000000;
+    transition: 0.5s;
+}
+
+.logout-btn:hover {
+    color: #000000;
+    background-color: #00000000;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 992px) {
+    .user-img-container {
+        width: 30%;
+    }
+
+    .user-details-container {
+        width: 70%;
+        padding-top: 10px;
+        padding-left: 100px;
+    }
+
+    .address-btn {
+        width: 40%;
+    }
+
+    .logout-btn {
+        width: 40%;
+    }
+}

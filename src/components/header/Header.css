@@ -1,0 +1,30 @@
+.navBg {
+    background-color: rgb(23, 203, 155);
+}
+
+.nav-Brand {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 680;
+}
+
+.nav-Brand:hover {
+    color: #e8e6e6;
+}
+
+.nav-Brand:active {
+    color: #c8c5c5;
+}
+
+.navLink {
+    color: #ffffff;
+    font-weight: 500;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.navLink:hover {
+    color: rgb(221, 218, 218);
+    font-weight: 500;
+    transition: 0.1s;
+}

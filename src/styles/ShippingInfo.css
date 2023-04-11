@@ -1,0 +1,140 @@
+.shippingInfo-form {
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+
+.shippingInfo-heading {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 680;
+}
+
+.shippingInfo-address-container,
+.shippingInfo-city-container,
+.shippingInfo-phoneNo-container,
+.shippingInfo-postalCode-container,
+.shippingInfo-country-container,
+.shippingInfo-state-container {
+    height: 80px;
+    width: 49%;
+    float: left;
+}
+
+.shippingInfo-city-container,
+.shippingInfo-postalCode-container,
+.shippingInfo-state-container {
+    margin-left: 2%;
+}
+
+.shippingInfo-address-label,
+.shippingInfo-city-label,
+.shippingInfo-phoneNo-label,
+.shippingInfo-postalCode-label,
+.shippingInfo-country-label,
+.shippingInfo-state-label {
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.shippingInfo-address-input,
+.shippingInfo-city-input,
+.shippingInfo-phoneNo-input,
+.shippingInfo-postalCode-input,
+.shippingInfo-country-input,
+.shippingInfo-state-input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.continue-btn {
+    height: 45px;
+    width: 100%;
+    background-color: rgb(14, 242, 166);
+    border: 2px solid rgb(9, 201, 137);
+    border-radius: 8px;
+    font-weight: 680;
+    transition: 0.3s;
+}
+
+.continue-btn:hover {
+    color: rgb(14, 242, 166);
+    background-color: rgba(14, 242, 166, 0);
+    transition: 0.3s;
+}
+
+.choose-address-btn {
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(9, 201, 137);
+    border-radius: 8px;
+    font-weight: 680;
+    transition: 0.3s;
+}
+
+.choose-address-btn:hover {
+    color: rgb(14, 242, 166);
+    background-color: rgba(14, 242, 166, 0);
+    border: 2px solid rgb(9, 201, 137);
+    transition: 0.3s;
+}
+
+.select-address {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(244, 240, 240);
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.select-address:hover {
+    background-color: rgb(225, 221, 221);
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .shippingInfo-form {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .shippingInfo-form {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shippingInfo-form {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .shippingInfo-form {
+        width: 100%;
+        margin-left: 0;
+    }
+}
