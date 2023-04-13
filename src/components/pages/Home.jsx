@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router';
 import { Snackbar, Alert } from '@mui/material';
 import Loading from '../plugins/Loading';
 import { onSnapshot, query, collection } from 'firebase/firestore';
-
 const q = query(collection(firebaseData, 'products'));
 
 const Home = () => {
@@ -17,6 +16,7 @@ const Home = () => {
     const handleProduct = (id) => {
         navigate(`/product/${id}`)
     }
+
     const LOCAL_STORAGE_KEY = "cart-list"
 
     const [cartItems, setCartItems] = useState(() => {

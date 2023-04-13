@@ -13,6 +13,7 @@ import ConfirmOrder from "./components/pages/ConfirmOrder";
 import Signup from "./components/pages/Signup";
 import Profile from "./components/pages/Profile";
 import Address from "./components/pages/Address";
+import ProtectedRoute from "./components/routes/ProtectedRoute";
 
 function App() {
   return (
@@ -22,13 +23,13 @@ function App() {
         <Routes>
           <Route path='/' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
-          <Route path='/user/:id' element={<Profile />} />
+          <Route path='/user' element={<ProtectedRoute><Profile /></ProtectedRoute>} />
           <Route path='/home' element={<Home />} />
           <Route path='/product/:id' element={<ProductDetails />} />
           <Route path='/cart' element={<Cart />} />
-          <Route path="/address" element={<Address />} />
-          <Route path='/shippinginfo' element={<ShippingInfo />} />
-          <Route path='/confirmorder' element={<ConfirmOrder />} />
+          <Route path="/address" element={<ProtectedRoute><Address /></ProtectedRoute>} />
+          <Route path='/shippinginfo' element={<ProtectedRoute><ShippingInfo /></ProtectedRoute>} />
+          <Route path='/confirmorder' element={<ProtectedRoute><ConfirmOrder /></ProtectedRoute>} />
           <Route path='*' element={<Error />} />
         </Routes>
         <Footer />
